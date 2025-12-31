@@ -3,5 +3,11 @@ name = "envelope-addr"
 version = "0.1.0"
 edition = "2021"
 
+authors = ["Matthew Lyon <matthew@lyon.systems"]
+description = "Minimal parsing and formatting for SMTP envelope addresses (non RFC 5322)"
+license = "MIT"
+repository = "https://github.com/MatthewIsHere/envelope-addr-rs"
+homepage = "https://github.com/MatthewIsHere/envelope-addr-rs"
+
 [dependencies]
 thiserror = "^2.0.0"
